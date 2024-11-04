@@ -1,0 +1,18 @@
+Find the subtree with the same coordinates.
+===============================================
+
+This program utilizes a binary search tree structure (Node) to store
+integer IDs and corresponding coordinates (Point). It aims to find 
+and print the node whose subtree best meets specified geometric 
+criteria based on its coordinates' quadrant placement.
+
+Input: User input consists of integer IDs followed by their
+	  coordinates.
+
+Output: The coordinates of the node with the largest subtree 
+	satisfying the quadrant conditions, or "00" if no such node is found.
+
+RunTime: o(n^2) when "n" represents the amount of nodes we have in
+the tree. We are talking about the overall run time of the code,
+so to build the tree, in the worst time (when the tree is skewed),
+we will have to run 1 + 2 + ... + n times, which is n^2.

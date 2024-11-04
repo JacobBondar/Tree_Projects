@@ -1,15 +1,11 @@
 Number of Nodes that meet the condition.
 ===================================================
- Written by: Jacob Bondar, id = 322336488, login = jacobbo
 
 This program implements a binary search tree structure (Node) to 
 store integer values and counts nodes that satisfy a specific 
 condition: having a left child node with the same value as itself. 
 
-Compile: g++ -Wall ex13a.cc –o ex13a
-Run: ./ex13a
-
 Input: The input consists of integer values from the user.
 
 Output: The count of such nodes that meet the conditions within the
-	  tree.
+	    tree.

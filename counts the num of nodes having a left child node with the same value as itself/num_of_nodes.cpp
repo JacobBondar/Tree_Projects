@@ -1,7 +1,6 @@
 /*
  * Number of Nodes that meet the condition.
  * ==========================================================
- * Written by: Jacob Bondar, id = 322336488, login = jacobbo
  *
  * This program implements a binary search tree structure (Node) to 
  * store integer values and counts nodes that satisfy a specific 

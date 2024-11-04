@@ -1,0 +1,14 @@
+Find the subtree, even greater than odd.
+================================================
+
+This code implements a binary search tree where nodes store integers.
+It aims to find and print the node with the most even integers in 
+its subtree. A recursive function counts even and odd numbers in each
+subtree to identify the node with the highest count of even integers.
+If no suitable node is found, it outputs "NOT FOUND".
+
+Input: User input sequence of integers as input to build a binary
+	  search tree.
+
+Output: The integer value stored in the node with the most even 
+	  integers in its subtree, or "NOT FOUND" if no such node exists.
